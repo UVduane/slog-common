@@ -1,6 +1,6 @@
 package slogcommon
 
-import "log/slog"
+import "golang.org/x/exp/slog"
 
 func FindAttrByKey(attrs []slog.Attr, key string) (slog.Attr, bool) {
 	for i := range attrs {

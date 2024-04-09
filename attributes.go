@@ -3,13 +3,15 @@ package slogcommon
 import (
 	"encoding"
 	"fmt"
-	"log/slog"
 	"net/http"
 	"reflect"
 	"runtime"
-	"slices"
 	"strconv"
 	"strings"
+
+	"golang.org/x/exp/slices"
+
+	"golang.org/x/exp/slog"
 
 	"github.com/samber/lo"
 )

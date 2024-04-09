@@ -1,8 +1,8 @@
 package slogcommon
 
 import (
-	"log/slog"
-	"slices"
+	"golang.org/x/exp/slices"
+	"golang.org/x/exp/slog"
 
 	"github.com/samber/lo"
 )

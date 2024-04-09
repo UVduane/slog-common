@@ -1,8 +1,9 @@
 package slogcommon
 
 import (
-	"log/slog"
 	"testing"
+
+	"golang.org/x/exp/slog"
 
 	"github.com/stretchr/testify/assert"
 )
